@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "reverseVowels", "reverseVowels\reverseVowels.vcxproj", "{65209383-2BE8-48D0-9A15-A19F8C8DB7E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65209383-2BE8-48D0-9A15-A19F8C8DB7E3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{65209383-2BE8-48D0-9A15-A19F8C8DB7E3}.Debug|Win32.Build.0 = Debug|Win32
+		{65209383-2BE8-48D0-9A15-A19F8C8DB7E3}.Release|Win32.ActiveCfg = Release|Win32
+		{65209383-2BE8-48D0-9A15-A19F8C8DB7E3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
