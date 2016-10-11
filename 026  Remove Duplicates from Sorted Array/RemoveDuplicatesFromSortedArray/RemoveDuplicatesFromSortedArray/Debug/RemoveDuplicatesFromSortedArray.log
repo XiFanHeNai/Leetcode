@@ -1,20 +1,39 @@
+<<<<<<< HEAD
 ﻿生成启动时间为 2016/10/12 0:10:01。
      1>项目“F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
+=======
+﻿生成启动时间为 2016/10/11 21:39:27。
+     1>项目“F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray\RemoveDuplicatesFromSortedArray.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\Debug\”。
+       InitializeBuildStatus:
+>>>>>>> origin/master
          正在创建“Debug\RemoveDuplicatesFromSortedArray.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt RemoveDuplicatesFromSortedArray.cpp
          RemoveDuplicatesFromSortedArray.cpp
        ManifestResourceCompile:
+<<<<<<< HEAD
          所有输出均为最新。
+=======
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RemoveDuplicatesFromSortedArray.exe.embed.manifest.res" Debug\RemoveDuplicatesFromSortedArray_manifest.rc 
+>>>>>>> origin/master
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\Debug\RemoveDuplicatesFromSortedArray.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RemoveDuplicatesFromSortedArray.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\Debug\RemoveDuplicatesFromSortedArray.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\Debug\RemoveDuplicatesFromSortedArray.lib" /MACHINE:X86 Debug\RemoveDuplicatesFromSortedArray.exe.embed.manifest.res
          Debug\RemoveDuplicatesFromSortedArray.obj
        Manifest:
          C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\RemoveDuplicatesFromSortedArray.exe.embed.manifest" /manifest Debug\RemoveDuplicatesFromSortedArray.exe.intermediate.manifest
+<<<<<<< HEAD
          所有输出均为最新。
        LinkEmbedManifest:
          所有输出均为最新。
+=======
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\RemoveDuplicatesFromSortedArray.exe.embed.manifest.res" Debug\RemoveDuplicatesFromSortedArray_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\Debug\RemoveDuplicatesFromSortedArray.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RemoveDuplicatesFromSortedArray.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\Debug\RemoveDuplicatesFromSortedArray.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\Debug\RemoveDuplicatesFromSortedArray.lib" /MACHINE:X86 Debug\RemoveDuplicatesFromSortedArray.exe.embed.manifest.res
+         Debug\RemoveDuplicatesFromSortedArray.obj
+>>>>>>> origin/master
          RemoveDuplicatesFromSortedArray.vcxproj -> F:\LeetCode\026  Remove Duplicates from Sorted Array\RemoveDuplicatesFromSortedArray\Debug\RemoveDuplicatesFromSortedArray.exe
        FinalizeBuildStatus:
          正在删除文件“Debug\RemoveDuplicatesFromSortedArray.unsuccessfulbuild”。
@@ -23,4 +42,8 @@
 
 生成成功。
 
+<<<<<<< HEAD
 已用时间 00:00:00.62
+=======
+已用时间 00:00:01.32
+>>>>>>> origin/master
