@@ -1,10 +1,10 @@
 #include <iostream>
-<<<<<<< HEAD
+
 #include <vector>
 
 using namespace std;
 
-/*
+
 class Solution {
 public:
 	Solution(vector<int>& n):nums(n){}
@@ -28,7 +28,7 @@ public:
 private:
 	vector<int>& nums;
 };
-*/
+
 int main(void)
 {
 	int a[] = {1,1,2};
@@ -37,12 +37,6 @@ int main(void)
 	vector<int>&v_temp=v;
 	Solution s(v_temp);
 	int result = s.removeDuplicates(v_temp);
-=======
 
-using namespace std;
-
-int main(void)
-{
->>>>>>> origin/master
 	return 0;
 }
