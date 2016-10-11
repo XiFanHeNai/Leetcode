@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TwoSum", "TwoSum\TwoSum.vcxproj", "{A57AF8DE-387A-466A-92FF-F5D147789758}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A57AF8DE-387A-466A-92FF-F5D147789758}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A57AF8DE-387A-466A-92FF-F5D147789758}.Debug|Win32.Build.0 = Debug|Win32
+		{A57AF8DE-387A-466A-92FF-F5D147789758}.Release|Win32.ActiveCfg = Release|Win32
+		{A57AF8DE-387A-466A-92FF-F5D147789758}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

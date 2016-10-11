@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ReverseString", "ReverseString\ReverseString.vcxproj", "{3B414B1D-9527-49A2-802F-E7D0C08ACE59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B414B1D-9527-49A2-802F-E7D0C08ACE59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3B414B1D-9527-49A2-802F-E7D0C08ACE59}.Debug|Win32.Build.0 = Debug|Win32
+		{3B414B1D-9527-49A2-802F-E7D0C08ACE59}.Release|Win32.ActiveCfg = Release|Win32
+		{3B414B1D-9527-49A2-802F-E7D0C08ACE59}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
