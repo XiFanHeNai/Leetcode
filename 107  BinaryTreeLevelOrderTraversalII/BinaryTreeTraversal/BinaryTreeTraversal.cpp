@@ -4,6 +4,38 @@
 
 using namespace std;
 
+
+/* 优秀代码 */
+/*
+class Solution
+{
+public:
+    vector<vector<int> > result;
+
+    void levelTra(TreeNode *root, int level)
+    {
+        if(root == NULL)
+            return;
+        if(level == result.size())
+        {
+            vector<int> v;
+            result.push_back(v);
+        }
+        result[level].push_back(root->val);
+        levelTra(root->left, level+1);
+        levelTra(root->right, level+1);
+    }
+
+    vector<vector<int> > levelOrderBottom(TreeNode *root) 
+    {
+        levelTra(root, 0);
+        return vector<vector<int> >(result.rbegin(), result.rend());
+    }
+};
+*/
+
+
+
 struct TreeNode
 {
 	int val;
@@ -11,6 +43,9 @@ struct TreeNode
 	TreeNode *right;
 	TreeNode(int x):val(x),left(NULL),right(NULL){}
 };
+
+
+
 
 TreeNode *CreateTreeFromArray(int *a,unsigned int length)
 {
@@ -39,13 +74,43 @@ TreeNode *CreateTreeFromArray(int *a,unsigned int length)
 class Solution {
 public:
 	Solution():root(NULL){}
-    vector<vector<int>> levelOrderBottom(TreeNode* root) {
-        
+	/* 方法:先按从上到下，从左到右的方式层序遍历，然后将最终输出的数组反向即可 */
+	vector<vector<int>> levelOrderBottom(TreeNode* root)
+	{
+		vector<vector<int>> result;
+		if (root != NULL)
+		{
+			queue<TreeNode*> q;
+			q.push(root);
+			unsigned int index=0;
+			while(!q.empty())
+			{
+				unsigned int t_size = q.size();
+				
+				vector<int> t_array;
+				TreeNode *t;
+				for(index=0;index<t_size;index++)
+				{
+					t=q.front();
+					q.pop();
+					t_array.push_back(t->val);
+
+					if (t->left != NULL)
+						q.push(t->left);
+					if (t->right != NULL)
+						q.push(t->right);
+
+				}
+				vector<vector<int>>::iterator location = result.begin();
+				result.insert(location,1,t_array);
+			}
+		}
+		return result;
     }
 private:
 	TreeNode *root;
 };
-/* 方法3：每次在输出某一层的元素时，统计下一层节点的个数 */
+
 
 
 
@@ -54,6 +119,6 @@ int main()
 	int a[] = {1,2,3};
 	TreeNode* tree = CreateTreeFromArray(a,sizeof(a)/sizeof(a[0]));
 	Solution s;
-	vector<vector<int>> result = s.levelOrder(tree);
+	vector<vector<int>> result = s.levelOrderBottom(tree);
 	return 0;
 }
